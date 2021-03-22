@@ -1,0 +1,113 @@
+Basic commands
+
+Crud 
+
+Create Deployment: 	kubectl create deployment [name]
+Edit Dep..	:	kubectl edit deployment [name]
+Delete Dep..	:	kubectl delete deployment [name]
+
+Status of Different K8s Components
+kubctl get nodes | pod | services | replicaset | deployment
+
+Debugging Pods
+
+Log to console		kubectl logs [pod name]
+get it terminal		kubectl exec -it[pod name] -bin/bash
+
+
+kubectl create deployment name --image=image [--dry-run] [options]
+
+
+
+
+
+Layers of abstraction
+
+deploy 
+rs Replicaset 
+pod is an abstraction of container
+docker container
+
+
+
+
+
+
+Developing one application 
+
+month 	app_image:v1
+month2 	app_image:v2
+
+k8s cluster
+
+
+
+
+
+
+
+1. Metadata
+2. Specification
+3. status: automatically generated and added by kubernetes!
+
+
+
+
+mongodb internal service
+mongo-express - external service
+
+
+2 deployment /pod
+2 services
+1 config map: db url
+				deployment.yaml
+1 seceret
+	db user 
+	db password
+
+
+web url  ->  mongo-express (ES) ->  mongo express(pod) -> mongo-db (is) -> mongodb(pod)
+						db url
+
+
+dXNlcm5hbWU=
+cGFzc3dvcmQ=
+----------------------------
+Name Spaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
