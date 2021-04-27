@@ -10,4 +10,5 @@ python-app/*
 build.txt
 demo/
 docker_commands.txt
+*.DS_Store
 
