@@ -11,4 +11,4 @@ build.txt
 demo/
 docker_commands.txt
 .DS_Store
-
+*/.DS_Store
